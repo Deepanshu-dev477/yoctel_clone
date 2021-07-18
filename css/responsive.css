@@ -1,0 +1,70 @@
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .mobile-text{
+        font-size: 13px;
+    }
+    
+    .footer .row .col-md-3 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+
+    .bootom-bar{
+        padding: 0 0;
+    }
+}
+
+
+/* form responsive */
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .form-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .form-desc {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .bg-form .row .col-md-12{
+        padding: 0 5px!important;
+        margin: 0;
+        
+    }
+}
+
+/* call btn  */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+.contact-button{
+    display: flex!important;
+}
+
+.slider-row{
+    padding: 5px;
+    display: flex;
+    flex-flow: column-reverse;
+}
+.slider-p{
+    font-size: 100%;
+}
+.main-title{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+}
+
+@media only screen and (min-width: 768px){
+    .dropdown-menu.megamenu.sm-menu.border-top.show {
+        position: absolute;
+        top: 70px;
+        left: -750px;
+        width: max-content;
+      }
+}
